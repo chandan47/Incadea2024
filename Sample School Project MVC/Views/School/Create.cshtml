@@ -1,0 +1,132 @@
+﻿@model Students
+ @{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <h1 class="display-6">New Admission Form 2024</h1>
+    <hr />
+
+<marquee class="text-danger">Admission has been opend and the last date for admission is 12-03-2024.</marquee>
+
+@{
+    @if (Convert.ToBoolean(TempData["Success"]))
+    {
+        <div class="alert alert-success">Student Added Successfully....</div>
+    }
+
+}
+
+
+    <div class="row">
+
+    <div class="col-sm-4">
+
+        <img src="~/img/1266204.svg" width="100px" height="100px" />
+    </div>
+        <div class="col-sm-8">
+        
+            <form asp-action="Create" asp-controller="School" method="POST">
+
+
+            @*//////*@
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Fname" class="control-label"></label>
+                        <input asp-for="Fname" class="form-control" />
+                        <span asp-validation-for="Fname" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Lname" class="control-label"></label>
+                        <input asp-for="Lname" class="form-control" />
+                        <span asp-validation-for="Lname" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+            </div>
+            @*//////*@
+
+
+            @*//////*@
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Phone" class="control-label"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+            </div>
+            @*//////*@
+            @*//////*@
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Class" class="control-label"></label>
+                        <input asp-for="Class" class="form-control" />
+                        <span asp-validation-for="Class" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+            </div>
+            @*//////*@
+
+
+            <div class="row">
+
+             <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+
+                  
+             </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label asp-for="RollNumber" class="control-label"></label>
+                        <input asp-for="RollNumber" class="form-control" />
+                        <span asp-validation-for="RollNumber" class="text-danger"></span>
+                    </div>
+            </div>
+
+
+            <input type="submit" value="Submit" class="btn btn-primary mt-4" />
+
+            </form>
+
+        </div>
+
+       
+
+
+ 
+
+    </div>
+
+
