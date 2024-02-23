@@ -2690,11 +2690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rakshit.halijola\\Desktop\\Incadea .net\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\BankSystem_EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\rakshit.halijola\\Desktop\\github\\Incadea2024\\IT079\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\BankSystem_EntityFramework.csproj",
       "projectName": "BankSystem_EntityFramework",
-      "projectPath": "C:\\Users\\rakshit.halijola\\Desktop\\Incadea .net\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\BankSystem_EntityFramework.csproj",
+      "projectPath": "C:\\Users\\rakshit.halijola\\Desktop\\github\\Incadea2024\\IT079\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\BankSystem_EntityFramework.csproj",
       "packagesPath": "C:\\Users\\rakshit.halijola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rakshit.halijola\\Desktop\\Incadea .net\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\obj\\",
+      "outputPath": "C:\\Users\\rakshit.halijola\\Desktop\\github\\Incadea2024\\IT079\\BankSystem_EntityFramework\\BankSystem_EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rakshit.halijola\\AppData\\Roaming\\NuGet\\NuGet.Config",
