@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginExample</title>
+    <link rel="stylesheet" href="Register.css">
+    <script src="Register.js"></script>
+</head>
+
+<body>
+    <form id="form">
+        <div style="align-items: center;position: absolute;
+        margin: auto; padding-left: 600px;padding-top:14%;">
+            <div id="formDiv">
+                <div id="usernameDiv">
+                    <div style="padding-bottom: 20px;padding-top: 10px;">
+                        <login id="formuser" style="font-size: xx-large;">RegistrationForm</login><br>
+                    </div>
+                    <label id="formuser">UserName :</label><input class="forminput" type="text" id="username"
+                        name="username" required><br>
+                </div>
+                <div id="EmailDiv">
+                    <label id="formuser">Email :</label><input class="forminput" type="email" id="email" name="email"
+                        required><br>
+                </div>
+                <div id="PhoneDiv">
+                    <label id="formuser">PhoneNumber :</label><input class="forminput" type="number" id="phonenumber"
+                        name="PhoneNumber" required><br>
+                </div>
+                <div id="passwordDiv">
+                    <label id="formuser">Password :</label><input class="forminput" type="password" id="password"
+                        name="password" required><br>
+                </div>
+                <div id="passwordDiv">
+                    <label id="formuser">Re-Password:</label><input class="forminput" type="password" id="re-password"
+                        name="re-password" required><br>
+                </div>
+                <div id="buttonDiv">
+                    <button id="formButton"><a style="text-decoration: none;" href="Login.html">Back</a></button>
+                    <button id="formButton" onclick="validateForm()"><a
+                            style="text-decoration: none;">Register</a></button>
+                </div>
+            </div>
+    </form>
+</body>
+
+</html>
