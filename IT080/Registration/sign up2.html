@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Register</title> 
+	<link rel="stylesheet"
+		href="signup.css">
+    <script src="signup.js"></script> 
+</head> 
+
+<body> 
+	<div class="main"> 
+		<h1>Registration form</h1> 
+		<form action=""> 
+			<label for="first"> 
+				Username: 
+			</label> 
+			<input type="text"
+				id="Username"
+				name="first"
+				placeholder="Enter your Username" required>
+            <label for="first"> 
+                Phone 
+            </label> 
+            <input type="number"
+                id="Phone"
+                name="first"
+                placeholder="Enter your Phone number" required>  
+            <label for="Email"> 
+                Email_id
+            </label> 
+            <input type="email"
+                id="Email_id"
+                name="first"
+                placeholder="Enter your Email_id" required> 
+
+			<label for="password"> 
+				Password: 
+			</label> 
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required> 
+            <label for="password"> 
+                    Re enter password: 
+            </label>
+            <input type="password"
+				id="Re enter password"
+				name="password"
+				placeholder="Reenter your Password" required> 
+
+
+			<div class="wrap"> 
+				<button type="submit"
+						onclick="ValidateForm()"> 
+					 Submit
+				</button> 
+			</div> 
+		</form> 
+		
+	</div> 
+</body> 
+
+</html>
