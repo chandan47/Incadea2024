@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css"></link>
+    <title>Registeration Form</title>
+</head>
+<body class="Body">
+    <h1 class="title">Registeration Form</h1>
+    <p>Please Fill your Details</p>
+    <div class="register">
+        <form class="mb-3">
+            <label >First Name:</label>
+            <input class="Label" type="text" id="fname" name="fname"><br>
+            <label >Last Name:</label>
+            <input class="Label" type="text" id="lname" name="lname"><br>
+            <label >Phone No.</label>
+            <input class="Label" type="number" id="Phone" name="Phone"><br>
+            <p>Gender:</p>
+                <label>Male</label>
+                <input class="label" type="radio" id="male" name="Gender" value="male">
+                <label>Female</label>
+                <input class="label" type="radio" id="female" name="Gender" value="female">
+                <label>others</label>
+                <input class="label"type="radio" id="others" name="Gender" value="others">
+            
+            <label>age:</label>
+            <input class="Label" type="number" id="age"><br>
+            <label>Email:</label>
+            <input class="Label" type="email" id="email" ><br>
+            <label>Password:</label>
+            <input class="Label" type="password" id="password"><br>
+            <label>Re-Enter Password:</label>
+            <input class="Label" type="password" id="Repassword"><br>
+            <button onclick="getData()" class= "Button">
+                Register    
+            </button>
+            
+        </form>
+    </div>
+    <!-- <img src="Register.jpg"> -->
+    <script src="index.js"></script>
+</body>
+</html>
